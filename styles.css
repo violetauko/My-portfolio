@@ -17,6 +17,7 @@ nav ul li{
 nav ul li a{
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
 nav ul li a:hover{
     color: violet;
@@ -24,11 +25,28 @@ nav ul li a:hover{
 h1{
     color: white;
     padding: 20px;
+
 }
 span{
     color: violet;
     font-style: italic;
 }
+.name{
+	padding: 70px;
+	justify-content: flex-start;
+}
+h3{
+    color: white;
+    font-style: italic;
+    text-align: start;
+    font-size: 40px;
+}
+h2{
+    color: violet;
+    font-size: 30px;
+}
+
+
 
 
 
