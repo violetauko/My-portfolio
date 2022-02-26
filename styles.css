@@ -4,23 +4,27 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
     background-image: url("images/ales-nesetril-Im7lZjxeLhg-unsplash\ \(1\).jpg");
-    background-size: cover;
+    background-size: 1200px;
+
 }
-nav{
+.navbar{
     display: flex;
     justify-content: center; 
 }
-nav ul li{
+ul li{
     display: inline-block;
     padding: 10px 25px;
 }
-nav ul li a{
+ul li a{
     color: white;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
 }
-nav ul li a:hover{
+ul li a:hover{
     color: violet;
+    box-shadow: 0 0 0 10px white;
+    background-color: white;
 }
 h1{
     color: white;
@@ -31,19 +35,34 @@ span{
     color: violet;
     font-style: italic;
 }
-.name{
-	padding: 70px;
-	justify-content: flex-start;
-}
-h3{
-    color: white;
+#home{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    height: 800px;
+    padding: 140px 50px;
     font-style: italic;
-    text-align: start;
-    font-size: 40px;
-}
-h2{
-    color: violet;
     font-size: 30px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: rgb(134, 139, 146);
+    color: white;
+    text-align: center;
+  }
+.socials{
+    margin-right: 5px;
 }
 
 
