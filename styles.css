@@ -21,6 +21,14 @@ nav ul li a{
 nav ul li a:hover{
     color: violet;
 }
+h1{
+    color: white;
+    padding: 20px;
+}
+span{
+    color: violet;
+    font-style: italic;
+}
 
 
 
