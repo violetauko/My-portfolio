@@ -2,17 +2,23 @@
     padding: 50px;
     padding-bottom: 20px;
     text-align: center;
+    
   }
   .card {
     text-align: center;  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px white;
     margin: 8px;
   }
   .container {
     padding: 0 16px;
+    font-size: 20px;
   }
   .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
+  }
+  *{
+    background-image: url("../components/matt-botsford-OKLqGsCT8qs-unsplash.jpg");
+    color: white;
   }
