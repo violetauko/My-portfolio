@@ -9,21 +9,8 @@
     background-color: #474e5d;
     color: white;
   }
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
+
   
-  .button:hover {
-    background-color: #555;
-  }
   .container {
     padding: 0 16px;
   }
@@ -34,4 +21,8 @@
     content: "";
     clear: both;
     display: table;
+  }
+  ul{
+    text-align: start;
+    
   }
