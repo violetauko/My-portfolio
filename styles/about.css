@@ -14,9 +14,7 @@
   .container {
     padding: 0 16px;
   }
-  .title {
-    color: grey;
-  }
+    
   .container::after, .row::after {
     content: "";
     clear: both;
@@ -24,5 +22,17 @@
   }
   ul{
     text-align: start;
+    
+  }h1{
+    text-align: start;
+    color: violet;
+  }
+  h2{
+    text-align: start;
+    font-style: italic;
+    color: violet;
+  }
+  h3{
+    font-size: 50px;
     
   }
