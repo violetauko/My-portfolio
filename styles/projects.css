@@ -29,3 +29,6 @@
     font-style: italic;
     color: violet;
   }
+  a:hover{
+    color:coral;
+  }
