@@ -2,6 +2,7 @@
     padding: 50px;
     padding-bottom: 20px;
     text-align: center;
+    font-size: 40px;
     
   }
   .card {
@@ -21,4 +22,10 @@
   *{
     background-image: url("../components/matt-botsford-OKLqGsCT8qs-unsplash.jpg");
     color: white;
+  }
+  a{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: violet;
   }
