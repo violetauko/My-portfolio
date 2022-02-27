@@ -58,7 +58,7 @@ span{
     padding-top: 20px;
     padding-bottom: 15px;
     background-color: rgb(134, 139, 146);
-    color: violet;
+    color: black;
     text-align: center;
   }
 .socials{
@@ -131,7 +131,7 @@ span{
 
 #contacts{
     text-align: center;
-    height: 800px;
+    height: 500px;
     background-image: url("images/sara-kurfess-6lcT2kRPvnI-unsplash.jpg");
 
     
