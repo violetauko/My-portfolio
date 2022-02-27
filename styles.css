@@ -1,4 +1,4 @@
-*{
+.container1{
     margin: 0%;
     padding: 0%;
     font-family: 'Times New Roman', Times, serif;
@@ -39,7 +39,7 @@ span{
     display: flex;
     flex-direction: column;
     color: aliceblue;
-    height: 800px;
+    height: 600px;
     padding: 140px 50px;
     font-style: italic;
     font-size: 30px;
@@ -64,6 +64,137 @@ span{
 .socials{
     margin-right: 5px;
 }
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid whites
+  }
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .about-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  
+  .about-container {
+    padding: 0 16px;
+  }
+    
+  .about-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .about-section >ul{
+    text-align: start;
+    
+  }
+  .about-section >h1{
+    text-align: start;
+    color: violet;
+  }
+  
+  .about-section >h2{
+    text-align: start;
+    font-style: italic;
+    color: violet;
+  }
+  .about-section >h3{
+    font-size: 50px;
+    
+  }
+
+  .contact-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: violet;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 20px;
+    box-shadow: 0 0 0 10px black;
+  }
+  
+  .contact-button:hover {
+    background-color: black;
+  }
+
+#contacts{
+    text-align: center;
+    background-image: url("../components/sara-kurfess-6lcT2kRPvnI-unsplash.jpg");
+    
+}
+#contacts > h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: violet;
+}
+.contacts-container{
+    font-style: italic;
+    
+}
+  
+
+    
+.projects-section {
+    padding: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+  }
+  .projects-card {
+    text-align: center;  
+    box-shadow: 0 0 10px white;
+    margin: 8px;
+  }
+  .projects-container {
+    padding: 0 16px;
+    font-size: 20px;
+  }
+  .projects-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #projects{
+    background-image: url("../components/matt-botsford-OKLqGsCT8qs-unsplash.jpg");
+    color: white;
+  }
+  .projects-link{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: violet;
+  }
+  .projects-link:hover{
+    color:coral
+  }
+
 
 
 

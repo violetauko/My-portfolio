@@ -1,4 +1,4 @@
-.card {
+.about-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
   }
@@ -11,28 +11,32 @@
   }
 
   
-  .container {
+  .about-container {
     padding: 0 16px;
   }
     
-  .container::after, .row::after {
+  .about-container::after, .row::after {
     content: "";
     clear: both;
     display: table;
   }
-  ul{
+  .about-section > ul{
     text-align: start;
+    display: flex;
+    flex-direction: column;
     
-  }h1{
+  }
+  .about-section >h1{
     text-align: start;
     color: violet;
   }
-  h2{
+  
+  .about-section >h2{
     text-align: start;
     font-style: italic;
     color: violet;
   }
-  h3{
+  .about-section >h3{
     font-size: 50px;
     
   }
