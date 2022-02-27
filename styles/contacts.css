@@ -3,16 +3,18 @@
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: violet;
-    background-color: #000;
+    color: white;
+    background-color: violet;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 30%;
   }
   
   .button:hover {
-    background-color: white
-  }
+    background-color: #555;
+    box-shadow: 0 0 0 10px black;
+}
+  
     
 
 
